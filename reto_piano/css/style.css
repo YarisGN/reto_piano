@@ -1,0 +1,62 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: #fff;
+}
+#contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+#piano{
+    display: flex;
+    position: relative;
+}
+.blanca{
+    background-color: #fff;
+    height: 490px;
+    width: 130px;
+    border: 1.5px solid #000;
+    color: #000;
+    border-radius: 0 0 5px 5px;
+    padding-top: 40%;
+}
+.negra{
+    background-color: #000;
+    height: 300px;
+    width: 80px;
+    border: 1.5px solid #000;
+    position: absolute;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+    padding-top: 20%;
+}
+
+.C2{
+    left: 90px;
+}
+
+.D2{
+    left: 220px;
+}
+
+.F2{
+    left: 480px;
+}
+
+.G2{
+    left: 610px;
+}
+
+.A2{
+    left: 740px;
+}
+
+.active{
+    background-color: #aaa;
+}
+
+
